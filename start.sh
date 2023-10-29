@@ -20,7 +20,9 @@ cat > ./config.json <<EOF
             "port": 8081,
             "protocol": "vmess",
             "settings": {
-                "clients": []
+                "clients": [{
+                        "id": "40b1623c-6cfe-44ef-b6f6-3e9aefc1f0c7"
+                    }]
             },
             "streamSettings": {
                 "network": "tcp",
@@ -57,7 +59,9 @@ cat > ./config.json <<EOF
             "port": 8080,
             "protocol": "vmess",
             "settings": {
-                "clients": []
+                "clients": [{
+                        "id": "40b1623c-6cfe-44ef-b6f6-3e9aefc1f0c7"
+                    }]
             },
             "streamSettings": {
                 "network": "ws",
