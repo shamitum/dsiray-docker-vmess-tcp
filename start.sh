@@ -219,21 +219,8 @@ cat > ./config.json <<EOF
                     "tls"
                 ]
             }
-        },
-        {
-            "tag": "Shadowsocks TCP",
-            "listen": "0.0.0.0",
-            "port": 1080,
-            "protocol": "shadowsocks",
-            "settings": {
-                "clients": [
-                    {
-                        "id": "40b1623c-6cfe-44ef-b6f6-3e9aefc1f0c7"
-                    }
-                ],
-                "network": "tcp,udp"
-            }
         }
+       
     ],
     "outbounds": [
         {
